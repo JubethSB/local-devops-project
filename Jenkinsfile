@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         // Replace 'jubethsb' with YOUR Docker Hub username
-        DOCKER_IMAGE = 'jubethsb/my-devops-app'
+        DOCKER_IMAGE = 'jubeth/my-devops-app'
         DOCKER_TAG = 'latest'
         registryCredential = 'docker-hub-creds'
     }
