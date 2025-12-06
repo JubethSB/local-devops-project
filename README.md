@@ -30,23 +30,23 @@ A complete, end-to-end **DevSecOps** pipeline built to simulate a production-gra
 
 ### 1. Automated CI/CD Pipeline (Jenkins)
 *Successfully built, pushed, and deployed the application container.*
-![Jenkins Pipeline](screenshots/pipeline.png)
+![Pipeline Success](images/pipeline.jpg)
 
 ### 2. Infrastructure Monitoring (Grafana)
 *Real-time visualization of container CPU, Memory, and Network usage.*
-![Grafana Dashboard](screenshots/grafana.png)
+![Grafana Dashboard](images/grafana.jpg)
 
 ### 3. Service Discovery (Prometheus)
 *Prometheus target configuration successfully scraping Jenkins metrics.*
-![Prometheus Targets](screenshots/targets.png)
+![Prometheus Targets](images/Prometheus.jpg)
 
 ### 4. Application Deployment
 *The Python Microservice running live after automated deployment.*
-![Live App](screenshots/app.png)
+![Live App](images/app.jpg)
 
 ### 5. Artifact Management (Docker Hub)
 *Secure storage of versioned container images.*
-![Docker Hub](screenshots/dockerhub.png)
+![Docker Hub](images/dockerhub.jpg)
 
 ---
 
@@ -58,6 +58,7 @@ A complete, end-to-end **DevSecOps** pipeline built to simulate a production-gra
 * Git
 
 ### Steps
+
 1.  **Clone the Repository**
     ```bash
     git clone [https://github.com/JubethSB/local-devops-project.git](https://github.com/JubethSB/local-devops-project.git)
@@ -76,7 +77,7 @@ A complete, end-to-end **DevSecOps** pipeline built to simulate a production-gra
     * Trigger the `DevOps-Pipeline` build.
 
 4.  **Check Monitoring**
-    * Access Grafana at `http://localhost:3000` (Default: `admin`/`admin`).
+    * Access Grafana at `http://localhost:3000` (Default credentials: `admin`/`admin`).
 
 ---
 
