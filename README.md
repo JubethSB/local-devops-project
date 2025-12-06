@@ -36,9 +36,9 @@ A complete, end-to-end **DevSecOps** pipeline built to simulate a production-gra
 *Real-time visualization of container CPU, Memory, and Network usage.*
 ![Grafana Dashboard](images/grafana.jpg)
 
-### 3. Service Discovery (Prometheus)
-*Prometheus target configuration successfully scraping Jenkins metrics.*
-![Prometheus Targets](images/Prometheus.jpg)
+### 3. Service Discovery (prometheus)
+*prometheus target configuration successfully scraping Jenkins metrics.*
+![prometheus Targets](images/prometheus.jpg)
 
 ### 4. Application Deployment
 *The Python Microservice running live after automated deployment.*
